@@ -1,0 +1,147 @@
+.navbar1g {
+  background-color: #060b26;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.company__details {
+  display: flex;
+  color: #fff;
+  margin-left: 11px;
+  
+}
+.company__name {
+  margin-top: 2px;
+  margin-left: 4px;
+  cursor: pointer;
+  font-size: 32px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+/* .company__name :hover{
+} */
+
+.company__logo {
+  width: 45px;
+  height: 45px;
+}
+.section__name__s {
+  margin-top: 2px;
+  margin-left: 5px;
+  margin-right: 30px ;
+  font-weight: normal;
+}
+.section__name__b {
+  margin-top: 2px;
+  margin-left: 5px;
+  font-weight: normal;
+}
+.section__name__c {
+  margin-top: 2px;
+  margin-left: 5px;
+  margin-right: 17px ;
+  font-weight: normal;
+}
+
+.menu-bars {
+  box-sizing: border-box;
+  margin-right: 5px;
+  margin-left: 63rem;
+  font-size: 2rem;
+  background: none;
+  color: #fff;
+}
+
+.menu-bars-cross {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.cross {
+  color: white;
+}
+
+.nav-menu1 {
+  background-color: #060b26;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: 850ms;
+  z-index: 1;
+}
+
+.nav-menu1.active1 {
+  right: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: #1a83ff;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: #060b26;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}
+
+a.company__name
+{
+    position: relative;
+}
+
+a.company__name:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:aqua;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+a.company__name:hover:before {
+  visibility: visible;
+  width: 100%;
+}

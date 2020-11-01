@@ -1,0 +1,32 @@
+.home__Section {
+    display: flex;
+    padding: 30px;
+    
+}
+
+.client__section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo__a {
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-left: 78px;
+    width: 130px;
+    height: 150px;
+}
+
+.logo__m {
+    box-sizing: border-box;
+    margin-left: 50px;
+    width: 350px;
+    height: 300px;
+}
+
+.chat__button {
+    margin-left: 40rem;
+    margin-bottom: 15px;
+}
